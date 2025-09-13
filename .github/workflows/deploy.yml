@@ -3,7 +3,7 @@ name: Deploy Angular to GitHub Pages
 on:
   push:
     branches:
-      - master   # change to master if your repo uses that
+      - gh-pages   # change to master if your repo uses that
 
 jobs:
   build-and-deploy:
