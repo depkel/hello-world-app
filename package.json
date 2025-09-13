@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "predeploy": "ng build --configuration production --base-href /hello-world-app/",
+    "deploy": "angular-cli-ghpages --dir=dist/test-app/browser"
   },
   "private": true,
   "dependencies": {
